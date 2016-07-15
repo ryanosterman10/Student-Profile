@@ -4,6 +4,32 @@
 <html>
 <head>
     <title>Ryan Osterman Bio</title>
+    <style>
+
+        body{
+            background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/1779076_10154007593904344_7147266395172958346_n.jpg?oh=6e7b6bac8c476f39cf158aa1c71fc06d&oe=582ED6F3);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        h1{
+            background-color:skyblue; color:white; text-align:center;
+        }
+        #left{
+            float: left;
+        }
+        #middle{
+            float: center;
+        }
+        #right{
+            float: right;
+        }
+        #layout{
+            
+        }
+
+    </style>
 </head>
 <body>
 
@@ -13,32 +39,26 @@
         <h1>Super Awesome Student Bio</h1>
     </header>
 
-    <div>
-        
+    <div id="layout">
+        <table>
         <!-- Section 1: Bio -->
-        <section>
+        <section id="left">
             <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
             <h2>Ryan Osterman</h2>
 
             <!-- Image with link -->
             <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/11941231_10153560804864344_645508374149097533_n.jpg?oh=86341a8c725215e899265df1762492f2&oe=582A9BB2"
         style="width:256px;height:256px" />
-
-
-            <!--Video
-
-            <video width="320" height="240" controls>
-               <source src="https://youtu.be/ZqZ9f89Xgcg" type="video/mp4">  
-            </video>
-            -->
-            <!-- Paragraph with embedded link -->
-            <p>Digging all of this coding stuff so far :)</p>
         </section>
 
-
+        <section id="middle">
+            <!-- Paragraph with embedded link -->
+            <p id="intro">Digging all of this coding stuff so far :)</p>
+            <a href="https://www.google.com/#q=ryan+osterman">Google me and see what's up</a>
+        </section>
 
         <!-- Section 2: Contact Info -->
-        <section>
+        <section id="right">
 
             <!-- h2: Tier-2 Headline -->
             <h2>Contact Info</h2>
@@ -49,8 +69,8 @@
                 <li><strong>Github:</strong> <a href="#">https://github.com/ryanosterman10/</a></li>
                 <li><strong>Portfolio:</strong> <a href="#">Coming soon, I promise</a></li>
             </ul>
-
         </section>
+        </table>
     </div>
 
 </body>
